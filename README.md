@@ -1,13 +1,22 @@
 
 # astromlp-app
 
-Deep learning models for astrophysics applications online app, available from https://nunorc.github.io/astromlp-app/.
+Deep learning models for astrophysics applications online app:
 
-Details about models and pipelines available from https://github.com/nunorc/astromlp-models and https://github.com/nunorc/astromlp.
+*  https://nunorc.github.io/astromlp-app/
+
+Details about models and pipelines:
+
+* https://github.com/nunorc/astromlp
+* https://github.com/nunorc/astromlp-models
 
 ## Running
 
-Requires https://nodejs.org/ and https://vuejs.org/, install required packages:
+Requires:
+
+* https://nodejs.org/
+
+Install module dependencies:
 
     $ npm install
 

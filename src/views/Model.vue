@@ -75,7 +75,7 @@ export default {
       imgPros: {
         width: '100%',
         height: shared.HS[this.$route.params.id],
-        backgroundImage: `url('/imgs/model/${ this.$route.params.id }.png'`,
+        backgroundImage: `url('${ process.env.BASE_URL }imgs/model/${ this.$route.params.id }.png'`,
         backgroundPosition: 'center',
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat'

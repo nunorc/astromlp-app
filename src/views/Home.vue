@@ -6,7 +6,7 @@
     <div class="container h-100">
       <hr/>
       <div class="card shadow-sm" style="width: 18rem;">
-        <img src="/imgs/galaxies.jpg" class="card-img-top" alt="Galaxy">
+        <img :src="`${ publicPath }imgs/galaxies.jpg`" class="card-img-top" alt="Galaxy">
         <div class="card-body">
           <h5 class="card-title">astroMLP for Galaxies</h5>
           <p class="card-text">Infer redshift, stellar mass and different classifications from a subset of the SDSS survey data.</p>
@@ -18,7 +18,12 @@
   </div>
 </template>
 
-<style>
- .app-m-title { font-family: var(--bs-font-monospace); }
- .app-bar { color: #ccc; padding: 0 8px; }
-</style>
+<script>
+export default {
+  data () {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
+}
+</script>

@@ -1,5 +1,5 @@
 
 export default {
-  API: 'http://astromlp-api.nrc.pt'
+  API: 'https://astromlp-api.nrc.pt'
 }
 

@@ -29,10 +29,10 @@
       <table class="table">
         <thead><tr><th class="text-center">Model Inputs</th></tr></thead>
         <tbody>
-          <Img v-bind:img="resp._img_base64" v-if="hasImg" />
-          <Fits v-bind:fits="resp._fits_base64" v-if="hasFits" />
-          <Spectra v-bind:waves="resp._waves_spectra" v-bind:spectra="resp.input.spectra" v-if="hasSpectra" />
-          <Ssel v-bind:waves="resp._waves_ssel" v-bind:ssel="resp.input.ssel" v-if="hasSsel" />
+          <Img v-bind:img="resp.extra.img" v-if="hasImg" />
+          <Fits v-bind:fits="resp.extra.fits" v-if="hasFits" />
+          <Spectra v-bind:waves="resp.extra.spectra" v-bind:spectra="resp.input.spectra" v-if="hasSpectra" />
+          <Ssel v-bind:waves="resp.extra.ssel" v-bind:ssel="resp.input.ssel" v-if="hasSsel" />
           <Bands v-bind:bands="resp.input.bands[0]" v-if="hasBands" />
           <Wise v-bind:wise="resp.input.wise[0]" v-if="hasWise" />
         </tbody>
@@ -133,3 +133,4 @@ export default {
 <style>
 .mymuted { color: #b0b4b6!important; font-size: 0.6rem; }
 </style>
+

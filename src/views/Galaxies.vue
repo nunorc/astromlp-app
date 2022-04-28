@@ -8,7 +8,7 @@
       <p class="text-center" style="font-size: 1rem; font-weight: 200;">
         Models source and details are available from <a class="text-decoration-none" href="https://github.com/nunorc/astromlp-models">astromlp-models</a>.
         <br/>
-        Dataset is available from <a class="text-decoration-none" href="https://zenodo.org/record/6393488">SDSS Galaxy Subset</a>.
+        Dataset is available from <a class="text-decoration-none" href="https://zenodo.org/record/6501642">SDSS Galaxy Subset</a>.
       </p>
     </div>
     <br/>

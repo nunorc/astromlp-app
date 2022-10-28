@@ -2,11 +2,13 @@
 export default {
   'PIPES': [
     'one2one',
-    'cherryPicked'
+    'cherryPicked',
+    'universal'
   ],
   'PIPES_NAMES': {
     one2one: 'One-2-One Ensemble',
-    cherryPicked: 'Cherry-Picked Ensemble'
+    cherryPicked: 'Cherry-Picked Ensemble',
+    universal: 'Universal Pipeline'
   },
   'PIPES_DESCS': {
     one2one: [
@@ -16,6 +18,10 @@ export default {
     cherryPicked: [
       'Infer redshift, stellar mass, subclass and gz2 simplified classification from RGB image, FITS, spectra, selected spectra, bands and WISE data using an ensemble of hand picked models.',
       '<table class="table table-sm"><thead><tr><th>Output</th><th>Ensemble</th></tr></thead><tbody><tr><td><code>redshift</code></td><td><code>[f2r, s2r, ss2r, iFsSSbW2r]</code></td></tr><tr><td><code>smass</code></td><td><code>[f2sm, b2sm, w2sm, iFsSSbW2sm]</code></td></tr><tr><td><code>subclass</code></td><td><code>[iFsSSbW2s]</code></td></tr><tr><td><code>gz2c</code></td><td><code>[i2g, f2g, iFsSSbW2g]</code></td></tr></tbody></table>'
+    ],
+    universal: [
+      'Infer redshift, stellar mass, subclass and gz2 simplified classification from RGB image, FITS, spectra and selected spectra data using a set of specific models.',
+      '<table class="table table-sm"><thead><tr><th>Output</th><th>Model</th></tr></thead><tbody><tr><td><code>redshift</code></td><td><code>s2r</code></td></tr><tr><td><code>smass</code></td><td><code>i2sm</code></td></tr><tr><td><code>subclass</code></td><td><code>ss2s</code></td></tr><tr><td><code>gz2c</code></td><td><code>f2g</code></td></tr></tbody></table>'
     ],
   },
   'MODELS': [

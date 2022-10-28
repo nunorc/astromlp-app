@@ -8,7 +8,7 @@
     </h5>
     <hr/>
 
-    <p class="myuc">{{ desc[0] }}.</p>
+    <p class="myuc">{{ desc[0] }}</p>
     <span v-html="desc[1]"></span>
   </div>
 </template>

@@ -30,6 +30,5 @@ Publish to github:
 
 ## Acknowledgments
 
-Thank you to Dr. Andrew Humphrey for the discussions that helped improve
-this work.
+Thank you to Dr. Andrew Humphrey for helping spawning this project and his contributions that helped improve this work.
 

@@ -28,3 +28,8 @@ Publish to github:
 
     $ npm run deploy
 
+### Acknowledgments
+
+Thank you to Dr. Andrew Humphrey for the discussions that helped improve
+this work.
+

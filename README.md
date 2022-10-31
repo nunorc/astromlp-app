@@ -28,7 +28,7 @@ Publish to github:
 
     $ npm run deploy
 
-### Acknowledgments
+## Acknowledgments
 
 Thank you to Dr. Andrew Humphrey for the discussions that helped improve
 this work.
